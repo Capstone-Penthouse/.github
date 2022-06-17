@@ -17,16 +17,16 @@
 
 ## penthouse_bogmjary
 1. Project clone
- git clone https://github.com/Capstone-Penthouse/bogmjary.git
+ - git clone https://github.com/Capstone-Penthouse/bogmjary.git
 2. Kakao Developers에 로그인 한 후, 내 애플리케이션 - 애플리케이션 추가하기를 통해 앱을 등록해줍니다.
 3. 내 애플리케이션 > 앱 설정 > 플랫폼에서 앱의 패키지 명을 등록합니다. 
 4. 패키지 명을 입력하는 플랫폼 창의 아래에, 키 해시를 입력합니다.
-  이때, 키 해시를 받는 방법은 다음과 같습니다.
+  - 이때, 키 해시를 받는 방법은 다음과 같습니다.
   1. 먼저 openssl을 다운받아줍니다.
   2. 이후 openssl 폴더 내 bin 폴더가 있는 경로를 환경 변수에 등록해줍니다.
   3. cmd 창을 열어 openssl이 있는 곳으로 cd 명령어를 통해 이동한 후, 다음을 입력해줍니다.
-    keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%/.android/
-    debug.keystore | openssl sha1 -binary | openssl base64
+    - keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%/.android/
+    - debug.keystore | openssl sha1 -binary | openssl base64
   4. 이후 비밀번호를 입력하라고 나오는데, android를 입력해주면 키 해시가 발급됩니다.
 5. 내 애플리케이션 > 앱 설정 > 앱 키에서 네이티브 앱 키와 REST API 키를 복사합니다..
 6. 안드로이드 스튜디오에서 프로젝트를 연 후, 상단의 AndroidManifest.xml의 아래에 다음과 같은 내용이 있습니다.
@@ -38,17 +38,16 @@
 
 
 ## calculate 서버
-1.프로젝트 clone
-  git clone https://github.com/Capstone-Penthouse/calculate.git
-  cd Calculate
-2.가상환경 설치 및 활성화
-  pip install virtualenv
-  virtualenv venv -python=python3.8(본인의 python version)
-  venv\Scripts\activate
-3.모듈 설치
-  pip install pandas
-4.Host ip 변경
+1. 프로젝트 clone
+  - git clone https://github.com/Capstone-Penthouse/calculate.git
+  - cd Calculate
+2. 가상환경 설치 및 활성화
+  - pip install virtualenv
+  - virtualenv venv -python=python3.8(본인의 python version)
+  - venv\Scripts\activate
+3. 모듈 설치
+  - pip install pandas
+4. Host ip 변경
   - calculate\server_elec.py, server_gas.py 에서 host=‘’ 부분 본인의 ip로 설정
-  - penthouse_bogmjary\app\src\main\java\com\penthouse_bogmjary\FeeActivity.java에서
-  private String ip= “”; 부분 본인의 ip로 설정
-5.calculate\server_elec.py, server_gas.py 실행
+  - penthouse_bogmjary\app\src\main\java\com\penthouse_bogmjary\FeeActivity.java에서 private String ip= “”; 부분 본인의 ip로 설정
+5. calculate\server_elec.py, server_gas.py 실행
