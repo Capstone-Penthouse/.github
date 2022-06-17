@@ -1,11 +1,12 @@
 # 보금자리
+<p align="center"><img src = "https://user-images.githubusercontent.com/39725470/174281123-bee15430-3d48-4a6d-bfb2-d9eb80a62f8d.JPG" width="70%" height="70%"><p>
 나만의 펜트하우스 : 보금자리
-![image](https://user-images.githubusercontent.com/39725470/174280520-22659814-54e5-4692-bffb-a28586b3a70d.png)
 
 
 ## 개요
 보금자리는 거주지 정보 제공 및 사용자 맞춤 추천 서비스입니다.
 대학생, 사회초년생 등 원룸, 오피스텔, 빌라 위주의 집을 구하려는 사람을 주 타겟으로 하며, 사용자가 등록한 집의 일조량, 공과금, 편의시설 정보 등의 제공을 통해 집 선택 단계에서 사용자가 효율적인 선택을 하도록 도와줍니다.
+
 
 ## 서비스 설치 및 실행
 1. Android Studio가 설치되어 있어야 합니다.
@@ -16,6 +17,7 @@
 상에서도 확인할 수 있습니다.
 6. https://github.com/Capstone-Penthouse/calculate.git에서 calculate 프로젝트를 clone합니다
 7. Python 서버를 활용하기 위해 추가적인 설정이 필요합니다 
+
 
 ## penthouse_bogmjary
 1. Project clone
