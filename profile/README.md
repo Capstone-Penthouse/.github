@@ -16,10 +16,10 @@
 7. Python 서버를 활용하기 위해 추가적인 설정이 필요합니다 
 
 ## penthouse_bogmjary
-1.Project clone
+1. Project clone
  git clone https://github.com/Capstone-Penthouse/bogmjary.git
-2.Kakao Developers에 로그인 한 후, 내 애플리케이션 - 애플리케이션 추가하기를 통해 앱을 등록해줍니다.
-3.내 애플리케이션 > 앱 설정 > 플랫폼에서 앱의 패키지 명을 등록합니다. 
+2. Kakao Developers에 로그인 한 후, 내 애플리케이션 - 애플리케이션 추가하기를 통해 앱을 등록해줍니다.
+3. 내 애플리케이션 > 앱 설정 > 플랫폼에서 앱의 패키지 명을 등록합니다. 
 4. 패키지 명을 입력하는 플랫폼 창의 아래에, 키 해시를 입력합니다.
   이때, 키 해시를 받는 방법은 다음과 같습니다.
   1. 먼저 openssl을 다운받아줍니다.
